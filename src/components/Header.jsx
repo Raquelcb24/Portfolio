@@ -8,8 +8,8 @@ function Header() {
           <nav className="header__nav">
             <ul className="header__nav--ul">
               <li><a className="active" href="#aboutme">About me</a></li>
-              <li><a className="active2"  href="#skills">My skills</a></li>
               <li><a className="active2" href="#portfolio">Portfolio</a></li>
+              <li><a className="active2"  href="#skills">My skills</a></li>
               <li><a className="active2" href="#contact">Contact</a></li>
             </ul>
             <div className="header__nav--brand">
