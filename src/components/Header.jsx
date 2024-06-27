@@ -15,7 +15,7 @@ function Header() {
             <div className="header__nav--brand">
               <h2> Hi there! My name is <span className="span">Raquel Castro</span> and I'm a <span className="span">web developer</span></h2>
               </div>
-              <a className="header__cv" href="https://drive.google.com/file/d/1HIXNYPl0yIZKMWhONg9UfzA6Tj_Z1q9m/view" target="_blank" > 
+              <a className="header__cv" href="https://drive.google.com/file/d/1HIXNYPl0yIZKMWhONg9UfzA6Tj_Z1q9m/view" target="_blank" rel="noopener noreferrer" > 
               <button className="header__cv--button">Download CV</button></a>
           </nav>
         </header>
