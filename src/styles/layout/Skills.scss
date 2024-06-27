@@ -1,0 +1,81 @@
+.icon{
+    width: 3rem;
+    @media screen and (min-width:768px){
+        width: 4rem;
+    }
+}
+.title{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+   
+}
+.container{
+    
+   
+   &__div{
+        display: flex;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center
+   }
+   &__title{
+    text-align: center;
+    font-size: 1.8rem;
+   }
+   &__title2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+   }
+    
+    &__front{
+        font-size: 1.5rem;
+        color: var(--pinkColor);
+        text-align: center;
+        margin-bottom: 2.5rem;
+        @media screen and (min-width:768px) {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
+
+        &--li{
+            margin: 1.5rem;
+            font-size: 1.2rem;
+            color: var(--textColor)
+        }
+     }
+     &__back{
+        font-size: 1.5rem;
+        text-align: center;
+        color: var(--pinkColor);
+        margin-bottom: 2.5rem;
+        @media screen and (min-width:768px) {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
+        &--li{
+            margin: 1.5rem; 
+            font-size: 1.2rem;
+            color: var(--textColor)
+        }
+     }
+     &__tools{
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+        text-align: center;
+        color: var(--pinkColor);
+        @media screen and (min-width:768px) {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
+        &--li{
+            margin: 1.5rem;
+            font-size: 1.2rem;
+            color: var(--textColor)
+        }
+     }
+     @media screen and (min-width:1024px){
+        margin: 3rem;
+     }
+}

@@ -1,0 +1,138 @@
+.header{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vw;
+
+    color: var(--pinkColor);
+    @media screen and (min-width:768px) {
+        height: 70vw;
+
+        
+    }
+    @media screen and (min-width:1440px){
+        height: 30vw;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('https://cdn.sanity.io/images/tlr8oxjg/production/d2f16531bde974464ad7ab74dc335790dbdebffa-1192x668.png?w=3840&q=80&fit=clip&auto=format') no-repeat center center;
+        background-size: cover;
+        mask-image: linear-gradient(black 80%, transparent);
+        opacity: 0.3; 
+        z-index: -100;
+    }
+
+    &__nav{
+        display: flex;
+        flex-direction: column;
+        padding: 1.2rem;
+        z-index: 100;
+        @media screen and (min-width:1440px){
+            margin-right: 2rem;
+        }
+        &--brand{
+           text-align: center;
+            margin-top: 2.5rem;
+            font-size: 1rem;
+           
+        }
+        h2{
+        color: var(--background);
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 1.5;
+        @media screen and (min-width:768px) {
+            margin-top: 5rem;
+            font-size: 3rem;
+            margin-bottom: 2rem;    
+        }
+        }
+     
+        &--ul{
+            display: flex;
+            flex-direction: row;
+            font-size: 0.8rem;
+            gap: 0.5rem;
+            justify-content: flex-end;
+            @media screen and (min-width:768px) {
+                font-size: 1.5rem;
+                gap: 1rem;
+                
+            }
+            @media screen and (min-width:1024px) {
+                font-size: 2rem;
+                gap: 2rem;
+                
+            }
+
+        }
+     
+    
+    }
+   &__cv{
+    align-self: center;
+
+    &--button{
+        font-size: 0.7rem;
+        padding: 10px 20px;
+        background-color: var(--pinkColor);
+        border: none;
+        border-radius: 25px;
+        margin-top: 10px;
+        color: var(--background);
+        cursor: pointer;
+        box-shadow: 1px 3px 11px -5px rgba(161, 105, 128, 0.8);
+        @media screen and (min-width:768px) {
+            font-size: 1rem;
+                
+        }
+        @media screen and (min-width:1024px) {
+        
+            font-size: 1.6rem;
+                
+        }
+      }
+   
+    
+      &--button:hover{
+        background-color: white;
+        color: var(--pinkColor);
+        box-shadow: none;
+    }
+  
+    
+   }
+ 
+}
+
+.span{
+    color: var(--pinkColor);
+    font-weight: 700;
+}
+.active{
+    color: var(--pinkColor);
+}
+ .active2{
+    color: var(--background);
+    
+    
+}  
+.active:hover{
+          
+    color: var(--background);
+    
+    transition: ease .3s;
+
+}
+.active2:hover{
+          
+    color: var(--pinkColor);
+    transition: ease .3s;
+
+}

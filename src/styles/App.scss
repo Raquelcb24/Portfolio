@@ -1,0 +1,13 @@
+@import './core/variable.scss';
+@import './core/reset.scss';
+@import './layout/Header.scss';
+@import './layout/Aboutme.scss';
+@import './layout/Skills.scss';
+@import './layout/Contact.scss';
+@import './layout/Portfolio.scss';
+
+body{
+    background-color: var(--background);
+    font-family: var(--font);
+    color: var(--pinkColor);
+}
