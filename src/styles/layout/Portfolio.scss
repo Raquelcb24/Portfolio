@@ -9,8 +9,9 @@
         text-align: center;
     }
     &__img:hover{
-        width: 17rem;
-        transition: width 0.3s;
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        
         
     }
     &__img{

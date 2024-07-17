@@ -27,6 +27,10 @@ function Skills() {
                     <li className="container__front--li">React </li>
                     <img className="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png" alt="Logo React" />
                 </div>
+                <div className="container__div">
+                    <li className="container__front--li">Tailwind </li>
+                    <img className="icon" src="https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png" alt="Logo Tailwind" />
+                </div>
             </ul>
         <h4 className="container__title2">Backend</h4>
             <ul className="container__back">
