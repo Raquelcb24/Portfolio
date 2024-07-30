@@ -1,23 +1,37 @@
 .main{
     margin: 0 auto;
-    width: 80vw;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
+    @media screen and (min-width:768px){
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 2rem;
+    }
+    @media screen and (min-width:1024px){
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
     
 
     
     &__img{
-        width: 12rem;
+        width: 15rem;
         mask-image: linear-gradient(black 80%, transparent);
         margin-bottom: 1.8rem;
         @media screen and (min-width:1024px){
-            width: 15rem;
+            width: 20rem;
+
         }
     }
     &__content{
+        @media screen and (min-width:1024px){
+            width: 80rem;
+            
+        }
         &--title{
             font-size: 1.8rem;
             text-align: center;
@@ -29,10 +43,17 @@
 
         }
         &--text{
+           
             margin-top: 0.6rem;
             line-height: 1.5;
             color: var(--textColor);
-            
+            margin: 2rem;
+            text-align: center;
+            @media screen and (min-width:1024px){
+               font-size: 1.5rem;
+                
+            }
+           
         }
       
       

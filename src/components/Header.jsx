@@ -40,14 +40,14 @@ return () => {
           <nav className="header__nav">
             <ul className="header__nav--ul">
               <li><a className={activeSection === 'aboutme' ? 'active' : ''} href="#aboutme">About me</a></li>
-              <li><a className={activeSection === 'portfolio' ? 'active2' : ''} href="#portfolio" >Portfolio</a></li>
               <li><a className={activeSection === 'skills' ? 'active2' : ''} href="#skills">My skills</a></li>
+              <li><a className={activeSection === 'portfolio' ? 'active2' : ''} href="#portfolio" >Portfolio</a></li>
               <li><a className={ activeSection === 'contact' ? 'active2' : ''} href="#contact">Contact</a></li>
             </ul>
             <div className="header__nav--brand">
               <h2> Hi there! My name is <span className="span">Raquel Castro</span> and I'm a <span className="span">web developer</span></h2>
               </div>
-              <a className="header__cv" href="https://drive.google.com/file/d/1vHUhwmWSF5viiTCJ5iY7c6XE7r1pyBjW/view?usp=drive_link" target="_blank" rel="noopener noreferrer" > 
+              <a className="header__cv" href="https://drive.google.com/file/d/1Xr1uC2iJNncvUXVti2qjrjUJxp3ijWGP/view?usp=sharing" target="_blank" rel="noopener noreferrer" > 
               <button className="header__cv--button">Download CV</button></a>
           </nav>
         </header>

@@ -2,9 +2,9 @@
 function Skills() {
   return (
     <>
+        <div className="container" >
         <h2 id="skills" className="title">My Skills</h2>
         <h3 className="container__title">Languages and Tools</h3>
-        <div className="container" >
         <h4 className="container__title2">Frontend</h4>
             <ul className="container__front">  
                 <div className="container__div">
@@ -52,7 +52,11 @@ function Skills() {
             <ul className="container__tools">
                 <div className="container__div">
                     <li className="container__tools--li">Git</li>
-                    <img className="icon" src="https://w7.pngwing.com/pngs/936/844/png-transparent-git-hd-logo-thumbnail.png" alt="Logo Git" /> 
+                    <img className="icon" src="https://camo.githubusercontent.com/b95fa10463b048819574fa4a9d865e5a11b9f3ea86800d6dce8678f348df11cf/68747470733a2f2f6432387978327a6f7079783261642e636c6f756466726f6e742e6e65742f6173736574732f6769742e706e67" alt="Logo Git" /> 
+                </div>
+                <div className="container__div">
+                    <li className="container__tools--li">GitHub</li>
+                    <img className="icon" src="https://cdn-icons-png.flaticon.com/512/1051/1051377.png" alt="Logo GitHub" /> 
                 </div>
                 
                 <div className="container__div">
