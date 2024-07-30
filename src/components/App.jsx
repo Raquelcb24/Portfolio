@@ -11,18 +11,10 @@ function App() {
   return (
     <>
       <Header/>
-      <main>
-        <Aboutme/>
-        <Skills/>
-        <Portfolio/>
-      </main>
-      <footer>
-        <Contact />
-      </footer>
-      
-     
-  
-      
+      <Aboutme/>
+      <Skills/>
+      <Portfolio/>
+      <Contact />
     </>
   )
 }

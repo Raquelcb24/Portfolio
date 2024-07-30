@@ -1,9 +1,16 @@
 .contact{
+    border-top: solid 1px rgba(128, 128, 128, 0.2);
+  
 
     &__title{
     font-size: 1.8rem;
     text-align: center;
+    margin-top: 2rem;
     margin-bottom: 1rem;
+    @media screen and (min-width:768px){
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
     
     }
     &__container{
