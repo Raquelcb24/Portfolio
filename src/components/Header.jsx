@@ -47,7 +47,7 @@ return () => {
             <div className="header__nav--brand">
               <h2> Hi there! My name is <span className="span">Raquel Castro</span> and I'm a <span className="span">web developer</span></h2>
               </div>
-              <a className="header__cv" href="https://drive.google.com/file/d/1Xr1uC2iJNncvUXVti2qjrjUJxp3ijWGP/view?usp=sharing" target="_blank" rel="noopener noreferrer" > 
+              <a className="header__cv" href="https://drive.google.com/file/d/1RcGandzdUcDjN9fda7kzlHpzCtUREKZp/view?usp=sharing" target="_blank" rel="noopener noreferrer" > 
               <button className="header__cv--button">Download CV</button></a>
           </nav>
         </header>
