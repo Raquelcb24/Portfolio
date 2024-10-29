@@ -7,7 +7,6 @@ function Header() {
 
   useEffect(()=>{
     const handleScroll =()=>{
-      const aboutmeSection = document.getElementById('aboutme');
       const portfolioSection = document.getElementById('portfolio');
       const skillsSection = document.getElementById('skills');
       const contactSection = document.getElementById('contact');
